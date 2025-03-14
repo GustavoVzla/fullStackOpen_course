@@ -1,0 +1,23 @@
+# fly.toml app configuration file generated for notas-nodejs on 2025-02-18T19:55:33+01:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'notas-nodejs'
+primary_region = 'mad'
+
+[build]
+
+[env]
+  PORT = "3000" 
+
+[http_service]
+  internal_port = 3000 
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  size = 'shared-cpu-1x'
