@@ -7,7 +7,7 @@ My exercise submissions for [Full Stack Open](https://fullstackopen.com/) (Unive
 | Part | Topic | Folder |
 |---|---|---|
 | 0 | Fundamentals of web apps (exercise write-ups) | `parte_0/` |
-| 1 | Introduction to React (course info, unicafe feedback, anecdotes) | `parte_1/` |
+| 1 | Introduction to React (exercises 1.1-1.14) | `parte_1/` |
 | 2 | Communicating with the server (country data, course information, notes and phonebook frontends, axios) | `parte_2/` |
 | 3 | Programming a server with Node.js and Express (notes and phonebook backends and frontends) | `parte_3/` |
 
